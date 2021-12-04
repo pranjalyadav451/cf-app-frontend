@@ -1,0 +1,13 @@
+.ui.statistic > .text.value,
+.ui.statistics .statistic > .text.value {
+	min-height: 1em;
+}
+
+.ui.cards > .card {
+	padding: 0.5em 0;
+}
+
+.bottom-buttons {
+	display: flex;
+	justify-content: space-around;
+}

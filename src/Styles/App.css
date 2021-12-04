@@ -1,0 +1,47 @@
+main {
+	width: 100%;
+	justify-content: center;
+	display: flex;
+	align-items: center;
+	justify-items: center;
+	padding-right: 2rem;
+	padding-left: 2rem;
+	padding-bottom: 1rem;
+}
+.center-flex {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.flex {
+	display: flex;
+	width: 100%;
+}
+.sticky-form {
+	position: sticky;
+	top: 3rem;
+}
+.space-around-contents {
+	justify-content: space-around;
+}
+.vertical-container {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.add-border {
+	border: 2px solid #b1b1b1 !important;
+	border-radius: 5px !important;
+}
+.green-background {
+	background-color: rgba(148, 231, 148, 0.5) !important;
+}
+.yellow-background {
+	background-color: rgba(253, 255, 126, 0.5) !important;
+}
+
+.full-width {
+	width: 100%;
+}
