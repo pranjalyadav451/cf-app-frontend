@@ -40,7 +40,7 @@ const ContestInfo = () => {
 				</Dimmer>
 			)}
 			{!isLoading && !error && contestInfo && (
-				<div className="ui stackable cards">
+				<div className="ui stackable cards center-flex">
 					{contestInfo.map((question) => {
 						return (
 							<QuestionCard
